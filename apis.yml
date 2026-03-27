@@ -1,0 +1,33 @@
+aid: valence-security
+name: Valence Security
+description: >-
+  Valence Security is a SaaS security posture management platform that remediates misconfigurations and risky integrations across business-critical SaaS applications.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - SaaS Security
+  - SSPM
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/valence-security/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-03-27'
+specificationVersion: '0.19'
+apis:
+  - aid: valence-security:valence-security
+    name: Valence Security
+    description: >-
+      Valence Security is a SaaS security posture management platform that remediates misconfigurations and risky integrations across business-critical SaaS applications.
+    humanURL: https://www.valencesecurity.com
+    tags:
+      - SaaS Security
+    properties:
+      - type: Documentation
+        url: https://www.valencesecurity.com/resources
+common:
+  - type: Website
+    url: https://www.valencesecurity.com
+  - type: Documentation
+    url: https://www.valencesecurity.com/resources
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
