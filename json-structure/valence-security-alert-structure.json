@@ -1,0 +1,18 @@
+{
+  "name": "Valence Security Alert",
+  "description": "Structure of a Valence Security platform alert",
+  "fields": [
+    { "name": "id", "type": "string", "required": true, "description": "Unique alert ID" },
+    { "name": "type", "type": "enum[misconfiguration,identity_threat,data_exposure,suspicious_activity,ai_risk]", "required": true, "description": "Alert type" },
+    { "name": "severity", "type": "enum[critical,high,medium,low,info]", "required": true, "description": "Severity level" },
+    { "name": "status", "type": "enum[open,in_progress,resolved,suppressed]", "required": false, "description": "Current status" },
+    { "name": "title", "type": "string", "required": true, "description": "Alert title" },
+    { "name": "description", "type": "string", "required": false, "description": "Detailed description" },
+    { "name": "application", "type": "object", "required": true, "description": "Affected SaaS application" },
+    { "name": "affected_resource", "type": "object", "required": false, "description": "Affected resource" },
+    { "name": "risk_score", "type": "number", "required": false, "description": "0-100 risk score" },
+    { "name": "compliance_frameworks", "type": "array", "required": false, "description": "Relevant compliance frameworks" },
+    { "name": "remediation", "type": "object", "required": false, "description": "Remediation recommendation" },
+    { "name": "created_at", "type": "datetime", "required": false, "description": "Creation timestamp" }
+  ]
+}

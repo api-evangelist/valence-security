@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "@vocab": "https://valencesecurity.com/vocab#",
+    "schema": "https://schema.org/",
+    "security": "https://www.w3.org/ns/ssn/",
+    "Alert": "schema:Alert",
+    "Integration": "schema:SoftwareApplication",
+    "id": "@id",
+    "type": "@type",
+    "severity": "schema:additionalProperty",
+    "status": "schema:status",
+    "title": "schema:name",
+    "description": "schema:description",
+    "application": "schema:applicationCategory",
+    "risk_score": "schema:ratingValue",
+    "compliance_frameworks": "schema:additionalType",
+    "remediation": "schema:actionOption",
+    "created_at": "schema:dateCreated",
+    "updated_at": "schema:dateModified",
+    "permissions": "schema:permissions",
+    "last_scanned": "schema:dateModified"
+  }
+}

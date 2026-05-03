@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://valencesecurity.com/schemas/alert",
+  "title": "Valence Security Alert",
+  "description": "A security alert from the Valence Security platform detecting SaaS risks, misconfigurations, or identity threats",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique alert identifier"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "misconfiguration",
+        "identity_threat",
+        "data_exposure",
+        "suspicious_activity",
+        "ai_risk"
+      ],
+      "description": "Alert type"
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low", "info"],
+      "description": "Alert severity level"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["open", "in_progress", "resolved", "suppressed"],
+      "description": "Current alert status"
+    },
+    "title": {
+      "type": "string",
+      "description": "Alert title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed alert description"
+    },
+    "application": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "type": { "type": "string" }
+      },
+      "description": "Affected SaaS application"
+    },
+    "affected_resource": {
+      "type": "object",
+      "properties": {
+        "type": { "type": "string" },
+        "identifier": { "type": "string" }
+      },
+      "description": "The affected resource within the application"
+    },
+    "risk_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Numerical risk score"
+    },
+    "compliance_frameworks": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Relevant compliance frameworks (e.g., SOC2, ISO27001)"
+    },
+    "remediation": {
+      "type": "object",
+      "properties": {
+        "recommendation": { "type": "string" },
+        "automated": { "type": "boolean" }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["id", "type", "severity", "title", "application"]
+}

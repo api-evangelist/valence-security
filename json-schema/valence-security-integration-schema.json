@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://valencesecurity.com/schemas/integration",
+  "title": "Valence Security SaaS Integration",
+  "description": "A SaaS application integration connected to the Valence Security platform",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique integration identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Integration name"
+    },
+    "application": {
+      "type": "string",
+      "description": "SaaS application name (e.g., Salesforce, GitHub, Microsoft 365)"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["connected", "disconnected", "error", "pending"],
+      "description": "Integration connection status"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["oauth", "api_key", "service_account", "custom"],
+      "description": "Authentication method for the integration"
+    },
+    "permissions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Granted permissions for the integration"
+    },
+    "risk_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Overall risk score for this integration"
+    },
+    "open_alerts": {
+      "type": "integer",
+      "description": "Number of open security alerts"
+    },
+    "last_scanned": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the integration was last scanned"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["id", "application", "status"]
+}

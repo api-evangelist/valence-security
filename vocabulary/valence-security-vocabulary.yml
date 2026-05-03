@@ -1,0 +1,79 @@
+vocabulary:
+  name: Valence Security Vocabulary
+  description: Domain vocabulary for SaaS security posture management, AI security, and identity threat detection
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  terms:
+    - term: SSPM
+      definition: SaaS Security Posture Management - a category of security tools that detect and remediate misconfigurations and risks in SaaS applications
+      category: Category
+      tags:
+        - Security
+        - SaaS
+    - term: AI-SPM
+      definition: AI Security Posture Management - governance and risk assessment of AI tool and agent usage within an organization
+      category: Category
+      tags:
+        - Security
+        - AI
+    - term: ITDR
+      definition: Identity Threat Detection and Response - monitoring and responding to identity-based threats across SaaS environments
+      category: Category
+      tags:
+        - Security
+        - Identity
+    - term: Shadow SaaS
+      definition: Unauthorized SaaS applications used by employees without IT knowledge or approval
+      category: Risk
+      tags:
+        - SaaS
+        - Governance
+    - term: Non-Human Identity
+      definition: Service accounts, API keys, OAuth apps, and other programmatic identities that access SaaS data without a human user
+      category: Concept
+      tags:
+        - Identity
+        - Security
+    - term: Misconfiguration
+      definition: An insecure or overly permissive setting in a SaaS application that creates security risk
+      category: Risk Type
+      tags:
+        - Security
+        - Configuration
+    - term: SaaS Integration
+      definition: A third-party application connected to a SaaS platform via OAuth, API key, or service account that has been granted access to data or functionality
+      category: Concept
+      tags:
+        - SaaS
+        - Integration
+    - term: Connector Studio
+      definition: Valence's tool for creating custom integrations to non-standard applications via a REST API data ingestion mechanism
+      category: Feature
+      tags:
+        - Integration
+        - API
+    - term: Risk Score
+      definition: A numerical rating from 0-100 indicating the severity and likelihood of a security issue
+      category: Metric
+      tags:
+        - Risk
+        - Scoring
+    - term: Posture
+      definition: The overall security health and configuration state of a SaaS application environment
+      category: Concept
+      tags:
+        - Security
+        - Posture Management
+    - term: AI Agent
+      definition: An autonomous AI system that takes actions on behalf of users, potentially with access to sensitive SaaS data and capabilities
+      category: Concept
+      tags:
+        - AI
+        - Security
+    - term: Agentic Era
+      definition: The current period in enterprise technology characterized by increasing use of AI agents that autonomously interact with business systems
+      category: Context
+      tags:
+        - AI
+        - Enterprise

@@ -1,0 +1,27 @@
+{
+  "description": "Example Valence Security alert for a misconfiguration in Microsoft 365",
+  "alert": {
+    "id": "alert_a1b2c3d4",
+    "type": "misconfiguration",
+    "severity": "high",
+    "status": "open",
+    "title": "Microsoft 365 External Sharing Enabled for All Users",
+    "description": "External sharing is enabled organization-wide in Microsoft 365 SharePoint, allowing any authenticated external user to access shared content. This exposes sensitive business data to unauthorized parties.",
+    "application": {
+      "name": "Microsoft 365",
+      "type": "Productivity"
+    },
+    "affected_resource": {
+      "type": "SharePoint Policy",
+      "identifier": "ExternalSharingPolicy-Global"
+    },
+    "risk_score": 78,
+    "compliance_frameworks": ["SOC2", "ISO27001", "NIST-CSF"],
+    "remediation": {
+      "recommendation": "Disable external sharing or restrict to specific domains in SharePoint admin center",
+      "automated": false
+    },
+    "created_at": "2026-05-01T14:30:00Z",
+    "updated_at": "2026-05-01T14:30:00Z"
+  }
+}
