@@ -105,6 +105,12 @@ common:
     url: https://raw.githubusercontent.com/api-evangelist/valence-security/refs/heads/main/json-ld/valence-security-context.jsonld
   - type: Vocabulary
     url: https://raw.githubusercontent.com/api-evangelist/valence-security/refs/heads/main/vocabulary/valence-security-vocabulary.yml
+  - type: Integrations
+    url: https://www.valencesecurity.com/partners
+integrations:
+  - name: Valence Security partner Crowdstrike
+  - name: Microsoft Entra Il
+  - name: Wiz
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
