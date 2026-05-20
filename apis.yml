@@ -91,6 +91,10 @@ apis:
       - name: Microsoft Security Copilot
         description: AI-assisted security analysis via Microsoft Security Copilot plugin
 common:
+  - type: GitHubOrganization
+    url: https://github.com/valencesec
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/valence-security
   - type: Website
     url: https://www.valencesecurity.com
   - type: Documentation
