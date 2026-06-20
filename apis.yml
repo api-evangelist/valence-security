@@ -7,7 +7,7 @@ description: >-
   remediation across 175+ SaaS and AI applications including Microsoft 365, Google
   Workspace, Salesforce, Okta, GitHub, OpenAI, and Anthropic.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - SaaS Security
   - SSPM
