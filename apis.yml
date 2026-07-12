@@ -91,12 +91,18 @@ apis:
       - name: Microsoft Security Copilot
         description: AI-assisted security analysis via Microsoft Security Copilot plugin
 common:
+  - type: TrustCenter
+    url: security/valence-security-trust-center.yml
+  - type: DomainSecurity
+    url: security/valence-security-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/valencesec
   - type: LinkedIn
     url: https://www.linkedin.com/company/valence-security
   - type: Website
     url: https://www.valencesecurity.com
+  - url: https://www.valencesecurity.com/resources/blogs
+    type: Blog
   - type: Documentation
     url: https://www.valencesecurity.com/resources
   - type: Connector Studio
