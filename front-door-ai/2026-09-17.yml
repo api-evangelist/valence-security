@@ -1,0 +1,29 @@
+# Front Door AI Index — valence-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: valence-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.valencesecurity.com
+  final_host: www.valencesecurity.com
+  ownership: own
+  owner: valence-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 70
+  host_score: 70
+  density: 84.85
+  words: 825
+  tiers:
+    agentic: 12
+    core: 56
+    model: 2
+  ambiguous: 8
+  top_terms:
+    AI: 56
+    AI agent: 8
+    agent: 8
+    agentic: 4
+    Claude: 2
