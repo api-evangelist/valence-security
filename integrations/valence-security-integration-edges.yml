@@ -5,6 +5,7 @@ checked:
 - https://azuremarketplace.microsoft.com/
 - microsoft-sentinel/integrations/microsoft-sentinel-integration-edges.yml
 - okta/integrations/okta-integration-edges.yml
+- zoom/integrations/zoom-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: Microsoft Azure Marketplace
@@ -79,6 +80,23 @@ edges:
   - OKTA_VERIFIED
   features:
   - SAML
+- partner_name: Zoom (own)
+  partner: zoom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.zoom.us/apps/ggdPD5BlRBqNrTm0rcdb2A
+  mirror_of: zoom/integrations/zoom-integration-edges.yml
+  apps:
+  - Valence Connector for Zoom
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Zoom app
 source:
 - crowdstrike/integrations/crowdstrike-integration-edges.yml
 - microsoft-sentinel/integrations/microsoft-sentinel-integration-edges.yml
