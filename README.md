@@ -64,55 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Valence Security is the leader in SaaS and AI Security, built for the agentic era. The platform provides SaaS Security Posture Management (SSPM), AI Security Posture Management (AI-SPM), Identity Threat Detection and Response (ITDR), and risk remediation across 175+ SaaS and AI applications.
+Valence Security is the leader in SaaS and AI Security, built for the agentic era. The platform provides SaaS security posture management (SSPM), AI security posture management (AI-SPM), identity threat detection and response (ITDR), and risk remediation across 175+ SaaS and AI applications including Microsoft 365, Google Workspace, Salesforce, Okta, GitHub, OpenAI, and Anthropic.
 
-**Human URL:** [https://www.valencesecurity.com](https://www.valencesecurity.com)
+**Areas:** SaaS Security · SSPM · AI Security · Identity Security · ITDR · Posture Management · Risk Remediation
 
-## Description
+## Valence Security on APIs.io
 
-Valence provides comprehensive visibility and control across SaaS and AI ecosystems, enabling secure adoption of AI agents and protecting against misconfigurations, data exposure, identity threats, and unauthorized integrations. The platform integrates with Microsoft 365, Google Workspace, Salesforce, Okta, GitHub, OpenAI, Anthropic, Snowflake, and 170+ more applications.
+Everything profiled for Valence Security is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/valence-security/](https://apis.io/providers/valence-security/)** — or go straight to one of the APIs or properties below.
 
-## Links
+### APIs (1)
+
+- [Valence Security API](https://apis.io/apis/valence-security/valence-security-api/) — The Valence Security REST API enables integration with the Valence platform for ingesting security data from custom sources, exporting alerts and audit…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Valence Security Alert](https://apis.io/schemas/valence-security/valence-security-alert/)
+- [Valence Security SaaS Integration](https://apis.io/schemas/valence-security/valence-security-integration/)
+
+#### JSON Structure (1)
+
+Data models expressed in JSON Structure.
+
+- [Valence Security Alert Structure](https://apis.io/json-structure/valence-security/valence-security-alert-structure/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Valence Security Context](https://apis.io/jsonld/valence-security/valence-security-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Valence Security Vocabulary](https://apis.io/vocabularies/valence-security/valence-security-vocabulary/)
+
+#### Examples (1)
+
+Example requests and responses.
+
+- [Valence Security Alert Example](https://apis.io/examples/valence-security/valence-security-alert-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Valence Security — jsonschema rules](https://apis.io/rules/valence-security/valence-security-jsonschema-spectral-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Valence Security Domain Security](https://apis.io/security/valence-security/valence-security-domain-security/)
+- [Valence Security Trust Center](https://apis.io/security/valence-security/valence-security-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Valence Security Plans Pricing](https://apis.io/plans/valence-security/valence-security-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Valence Security Rate Limits](https://apis.io/rate-limits/valence-security/valence-security-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Valence Security Finops](https://apis.io/finops/valence-security/valence-security-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.valencesecurity.com)
-- [Resources](https://www.valencesecurity.com/resources)
-- [Connector Studio](https://www.valencesecurity.com/solutions/valence-connector-studio)
+- [Documentation](https://www.valencesecurity.com/resources)
+- [Blog](https://www.valencesecurity.com/resources/blogs)
+- [GitHub](https://github.com/valencesec)
 
-## Tags
+## API Evangelist rating
 
-`SaaS Security` `SSPM` `AI Security` `Identity Security` `ITDR` `Posture Management` `Risk Remediation`
+**Kin Score 18.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## JSON Schemas
-
-| Schema | File |
+| Facet | Score |
 |---|---|
-| Alert | [json-schema/valence-security-alert-schema.json](json-schema/valence-security-alert-schema.json) |
-| Integration | [json-schema/valence-security-integration-schema.json](json-schema/valence-security-integration-schema.json) |
+| Discoverability | 57.1 |
+| Contract quality | 10.7 |
+| Contract governance | 23.5 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 15.8 |
 
-## JSON Structure
+**Agent readiness 0.6** — human-only
 
-| Structure | File |
+| Agent-readiness dimension | Result |
 |---|---|
-| Alert | [json-structure/valence-security-alert-structure.json](json-structure/valence-security-alert-structure.json) |
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## JSON-LD Context
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-| Context | File |
-|---|---|
-| Valence Security | [json-ld/valence-security-context.jsonld](json-ld/valence-security-context.jsonld) |
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/valence-security/](https://apis.io/providers/valence-security/).
 
-## Examples
+## How this profile is made
 
-| Example | File |
-|---|---|
-| Alert Example | [examples/valence-security-alert-example.json](examples/valence-security-alert-example.json) |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Vocabulary
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Valence Security: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Vocabulary | File |
-|---|---|
-| Valence Security | [vocabulary/valence-security-vocabulary.yml](vocabulary/valence-security-vocabulary.yml) |
+## Open an issue
 
-## Maintainers
-
-**Kin Lane** — [kin@apievangelist.com](mailto:kin@apievangelist.com)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/valence-security/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
